@@ -1,0 +1,198 @@
+/*Autor Juan Jose Moreno*/
+
+#seccion1 {
+    background: url(../../../img/turismo/fondo.jpg);
+
+  background-attachment: fixed;
+  background-position: center;
+  /*background-repeat: no-repeat;*/
+  background-size: cover;
+  min-height: 1600px;
+
+}
+
+
+
+.barra-superior{
+  min-height: 4rem;
+  position: fixed;
+   top 0;
+}
+div[class*="columna"]{
+  min-height: 50rem;
+}
+div[class*="bloque"]{
+  height: 25rem;
+  overflow: scroll;
+}
+.columna-chat, .columna-news{
+  padding: 0 !important;
+}
+.contenedor-write-publicacion{
+  min-height: 7rem;
+}
+.contenedor-publicacion{
+  min-height: 17rem;
+}
+.logo{
+  width: 40px;
+  margin-top: 0.5rem;
+  float: left;
+}
+.contenedor-noticias{
+  margin-top: 1rem;
+  min-height: 50rem;
+  padding: 0.5rem;
+}
+
+
+.img_acuario{
+  width:100%;
+  border:none;
+  margin-top:20px;
+}
+
+
+div.s12.col.amber.darken-3.barra-superior.colorencabezado{
+min-height:200px!important;
+background-color: #5abab3!important;
+
+}
+
+/*    style="position:relative;width:80%;height:80%;margin-top:40px;border:none;"*/
+.img_perroturista{
+position:relative;
+width:60%;
+height:60%;
+margin-top:40px;
+border:none;
+}
+
+.menu{
+ padding-top:10px!important;
+}
+
+
+.img-socialmedia{
+   margin-bottom:30px;
+}
+
+.divmenubotones {
+  margin-top:10px;
+}
+
+
+
+
+
+.buscar-campo{
+  float: left;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  width: 70%;
+}
+.barra-superior .row{
+  margin-bottom: 0;
+
+}
+.contenedor-botones{
+  margin-top: 1rem;
+}
+
+
+h3.light.grey-text.text-lighten-3.left.encabezado_blog {
+   position:relative;
+   padding-right:150px;
+   padding-top:80px;
+   font-size: 2.5em;
+   font-style:italic;
+   font-family: sans-serif;
+   color: #8209ec!important;
+}
+
+.titular-noticia {
+  padding-top:15px;
+  position:relative;
+}
+
+
+/*titulo circular*/
+.titular-comentarios {
+  background-color:#C5C3C5;
+  border-radius:15px 15px 15px 15px;
+  font-size:10px;font-weight:bold;
+  padding-left:10px;
+  width:50%;
+}
+
+
+i.material-icons.right.icono-titulo {
+  font-size:17px;
+  padding-right:20px;
+}
+
+.divrow {
+  margin-left:10px;
+  margin-right:10px;
+  position:relative;
+}
+
+.img-autor {
+  width:40%;
+  border:none;
+  margin-top:20px;
+}
+
+
+
+ .turismo1,.turismo2,.turismo3,.turismo4,.turismo5, turismo6 {
+   width:100%;
+   border:none;
+   padding-bottom:3px;
+ }
+
+ .turismo1 {
+   height:250px!important;
+ }
+ .turismo2 {
+   height:325px!important;
+ }
+ .turismo3 {
+   height:650px!important;
+ }
+ .turismo4 {
+    height:220px!important;
+ }
+ .turismo5 {
+    height:120px!important;
+ }
+ .turismo6 {
+    height:100px!important;
+ }
+
+
+ @media (max-width: 480px) {
+
+h3.light.grey-text.text-lighten-3.left.encabezado_blog {
+     color: #f63613!important;
+     font-weight:bold;
+     padding: 0px;
+     font-size: 25px;
+     margin-left: 40px;
+   }
+
+   .titulos-circulares {
+     font-size:8px;
+   }
+
+   i.material-icons.right.icono-titulo {
+     font-size:11px;
+     padding-right:8px;
+   }
+
+   div.l4.col.transparent.perfil {
+     margin-left: 20px;
+     margin-right: 20px;
+     margin-top: 30px;
+   }
+  }

@@ -1,0 +1,291 @@
+/*Autor Juan Jose Moreno*/
+@font-face {
+	font-family: a-song-for-jennifer;
+  src: url(../../../fuentes/a-song-for-jennifer.ttf);
+  /*src: url(../../../fuentes/Crash-Bandicoot-Wumpa.ttf);*/
+   /*src: url(../../../a-song-for-jennifer/a song for jennifer.ttf);*/
+  /*src: url(../fuentes/Brainfish-Rush_PersonalUseOnly.ttf);*/
+  font-weight: normal;
+  font-style:normal;
+}
+
+@font-face {
+	font-family: Crash-Bandicoot-Wumpa;
+  src: url(../../../fuentes/Crash-Bandicoot-Wumpa.ttf);
+  font-weight: normal;
+  font-style:normal;
+}
+
+@font-face {
+	font-family: FuenteLato;
+	src: url(../../../fuentes/Lato-BlackItalic.ttf);
+}
+
+.logo-img{
+  width: 30%;
+}
+
+
+
+div.secondary.callout.text-center{
+  min-height: 242px;
+}
+
+
+#titulo{
+  	font-family: a-song-for-jennifer;
+    /*font-style: italic;*/
+}
+#slogan{
+  	font-family: Crash-Bandicoot-Wumpa;
+    /*font-style: italic;*/
+}
+
+.tituloarticulo{
+  font-family: FuenteLato;
+
+}
+
+.fecha_publicacion{
+  margin-left: 14px;
+  font-family: arial;
+  font-weight: bold;
+  color: red;
+  letter-spacing: 3px;
+}
+
+.parrafo{
+  margin-left: 14px;
+  font-size: 12px;
+  font-family: arial;
+  font-weight: bold;
+}
+
+.caja_comentario{
+  padding-right:20px!important;
+}
+.caja_boton{
+  padding-right:20px!important;
+}
+
+
+.opacidad{
+  opacity: 0.6;
+}
+.color_contenedor{
+   /*background-color:rgb(255,0,0);*/
+   background-color:#c7d2d8;
+   opacity: 1.0;
+}
+
+
+/* *****  Clase para body  **** */
+.gastronomia-body {
+  background: url(../../../img/gastronomia/fondo.jpg);
+  background-position: center center;
+  background-size: cover;
+/*
+background-attachment: scroll;
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+*/
+  width: 100%;
+  height: 100%;
+}
+
+/* *****  Clase para la busqueda  **** */
+.img-navegacion {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+i.fi-magnifying-glass {
+   font-size:25px;
+   padding-left: 12px;
+}
+
+
+/*Diñose de barra de navegacion vertical*/
+.barra_nav_vertical{
+   margin-top: 0px;
+   margin-right: 0pt;
+   margin-bottom: 10px;
+   margin-left: 0pt;
+}
+
+.barra_nav_vertical ul{
+   margin-top: 0px;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+   padding-top: 0pt;
+   padding-right: 0pt;
+   padding-bottom: 0pt;
+   padding-left: 0px;
+   list-style-type: none;
+   list-style-image: none;
+   list-style-position: outside;
+     border-collapse:collapse;
+}
+
+.barra_nav_vertical li{
+  border-collapse:collapse;
+  border-top: 1px solid #ee1c05;
+  border-bottom: 1px solid #ee1c05;
+  border-left: 1px solid #ee1c05;
+  border-right: 1px solid #ee1c05;
+   padding: 1px 0 2px 4px;
+   font-size: 12pt;
+   font-weight: bold;
+   margin-top: 0px;
+   margin-right: 0pt;
+   margin-bottom: 0px;
+   margin-left: 0pt;
+   background-color: #c7d2d8;
+}
+
+.barra_nav_vertical a{
+   text-decoration: none;
+}
+
+
+
+
+/*Diñose de barra de navegacion vertical*/
+.barra_navegacion2{
+   margin-top: 0px;
+   margin-right: 0pt;
+   margin-bottom: 10px;
+   margin-left: 0pt;
+}
+
+.barra_navegacion2 ul{
+   margin-top: 0px;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+   padding-top: 0pt;
+   padding-right: 0pt;
+   padding-bottom: 0pt;
+   padding-left: 0px;
+   list-style-type: none;
+   list-style-image: none;
+   list-style-position: outside;
+}
+
+.barra_navegacion2 li{
+   padding: 1px 0 2px 4px;
+   font-size: 10pt;
+   margin-top: 0px;
+   margin-right: 0pt;
+   margin-bottom: 0px;
+   margin-left: 0pt;
+   background-color: #dfe8e5;
+}
+
+.barra_navegacion2 a{
+   text-decoration: none;
+}
+
+
+.barra_navegacion2 li a:hover{
+  color: #000000;
+
+}
+
+.side-nav li:hover{
+    outline: none;
+    background-color: #20B2AA !important
+}
+
+
+
+
+.side-nav li a:hover,
+.side-nav li a:focus {
+    outline: none;
+    background-color: #96b9ea !important;
+}
+
+.side-nav>li>ul {
+    padding: 0;
+    border-bottom: 1px rgba(0,0,0,.3) solid;
+}
+
+.side-nav>li>ul>li>a {
+    display: block;
+    padding: 10px 15px 10px 38px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.side-nav>li>ul>li>a:hover {
+    color: #000000;
+}
+
+.navbar .nav > li > a > .label {
+/*
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+*/
+  position: absolute;
+  top: 14px;
+  right: 6px;
+  font-size: 10px;
+  font-weight: normal;
+  min-width: 15px;
+  min-height: 15px;
+  line-height: 1.0em;
+  text-align: center;
+  padding: 2px;
+}
+
+.navbar .nav > li > a:hover > .label {
+  top: 10px;
+}
+
+.navbar-brand {
+    padding: 5px 15px;
+}
+
+
+
+/* comentarios gregados*/
+
+.div-comentario {
+  border:1px solid #F1DDEC;
+  padding-top:15px;
+  border-radius:15px 15px 15px 15px;
+  margin-top:5px;
+}
+
+.img-comentario {
+  margin-left:10px;
+  margin-bottom: 10px;
+}
+
+.user-comentario {
+  font-size:13px;
+  padding-top:10px;
+  margin-right:10px;
+}
+
+.comentario {
+  font-size:13px;
+  padding-top:10px;
+  margin-right:10px;
+}
+
+@media(max-width:482px) {
+
+  #titulo{
+    	font-family: a-song-for-jennifer;
+      font-size: 3em;
+      /*font-style: italic;*/
+  }
+
+}

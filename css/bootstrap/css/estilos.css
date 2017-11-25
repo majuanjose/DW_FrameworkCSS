@@ -1,0 +1,175 @@
+/*Autor Juan Jose Moreno*/
+.blog-body {
+  background-color:#5b7989;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: inline;
+}
+
+header {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.navbar-inverse {
+  background-color: #FFFFFF;
+  min-height: 10%;
+  border: none;
+  /*border-radius: 0px 0px 6px 6px;*/
+}
+
+
+
+.logo-img {
+  width: 180px;
+  margin-left: 20px;
+}
+
+
+/*
+.social-media {
+  display: inline;
+  margin-top:30px!important;
+  margin-bottom: 2px;
+}
+*/
+
+.container-fluid {
+  margin-top: 10px;
+}
+
+.jumbotron {
+
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 500px;
+  border-radius: 0px !important;
+  margin-bottom: 0px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+div.container-fluid.text-center{
+  background-color:#54d0cd;
+  /*border-radius: 0px 0px 6px 6px;*/
+  color: #FFC0CB;
+}
+
+div.container-fluid.text-center a {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+div.container-fluid.text-center a:hover {
+    background-color: #abeeec;
+    color: #000000;
+    /*border-radius: 15px 15px 15px 15px;*/
+}
+
+.jumbotron-img {
+  width: 100%;
+  height:  100%;
+  margin-top: 30px;
+  margin-bottom:  25px;
+  padding-left: 10px;
+}
+
+.glyphicon-user {
+    font-size: 25px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+.comentario {
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.img-socialmedia {
+  width: 40px;
+  height: 40px;
+  margin-top:90px!important;
+}
+
+/**/
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+/* Top Navigation */
+
+.top-nav {
+    padding: 0 15px;
+}
+
+.top-nav>li {
+    display: inline-block;
+    float: left;
+}
+
+.top-nav>li>a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.top-nav>li>a:hover,
+.top-nav>li>a:focus,
+.top-nav>.open>a,
+.top-nav>.open>a:hover,
+.top-nav>.open>a:focus {
+    color: #fff;
+    background-color: #fff;/* 1a242f*/
+}
+
+.top-nav>.open>.dropdown-menu {
+    float: left;
+    position: absolute;
+    margin-top: 0;
+    /*border: 1px solid rgba(0,0,0,.15);*/
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: #fff;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+.top-nav>.open>.dropdown-menu>li>a {
+    white-space: normal;
+}
+
+/* Side Navigation */
+
+li.espacio_li{
+ padding-right: 50px;
+ padding-left: 50px;
+}
+
+
+@media(max-width:768px) {
+
+  li.espacio_li{
+   padding: 0px;
+  }
+
+}
+
+.side-nav {
+    position: absolute;
+    top: 320px;
+    left: 961px;
+    width: 225px;
+    border: none;
+    bottom: 0;
+    padding-bottom: 40px;
+}
+
+.side-nav>li>a {
+    width: 225px;
+    border-bottom: 1px rgba(0,0,0,.3) solid;
+}
